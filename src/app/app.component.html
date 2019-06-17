@@ -8,8 +8,7 @@
 
 <div id="todos" class="card">
   <div id="todo-actions">
-    <button class="btn btn-alt">Save to Database</button>
-    <button class="btn btn-alt">Fetch from Database</button>
+    <button class="btn btn-alt" (click)="onFetchData()">Fetch from Database</button>
   </div>
   <ul>
     <li class="todo" *ngFor="let todo of todos; let i = index">
