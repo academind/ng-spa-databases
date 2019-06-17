@@ -1,0 +1,121 @@
+.card {
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+}
+
+.btn {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #521751;
+  background-color: #521751;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn-alt {
+  background-color: white;
+  color: #521751;
+}
+
+.btn-danger {
+  border-color: #bb0000;
+  background-color: #bb0000;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #7a3379;
+  border-color: #7a3379;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.26);
+}
+
+.btn-alt:hover,
+.btn-alt:active {
+  background-color: #521751;
+  border-color: #521751;
+  color: white;
+  box-shadow: none;
+}
+
+.btn-danger:hover,
+.btn-danger:active {
+  background-color: #d41818;
+  border-color: #d41818;
+}
+
+.btn:disabled {
+  background-color: #ccc;
+  color: #949494;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+.btn:disabled:hover,
+.btn:disabled:active {
+  box-shadow: none;
+  background-color: #ccc;
+  border-color: #ccc;
+}
+
+.todo {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo h1 {
+  font-size: 1rem;
+}
+
+#todo-input,
+#todos {
+  width: 30rem;
+  max-width: 90%;
+  margin: 1rem auto;
+}
+
+#todos .btn {
+  margin: 0 0.5rem;
+}
+
+#todos .btn:first-of-type {
+  margin-left: 0;
+}
+
+#todos ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+label,
+input {
+  display: block;
+  width: 100%;
+  font: inherit;
+  margin: 0.5rem 0;
+}
+
+label {
+  color: #777777;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid #521751;
+  padding: 0.1rem 0.25rem;
+  transition: border-bottom 0.15s ease-in;
+}
+
+input:focus {
+  outline: none;
+  border-bottom-color: #fa923f;
+}
